@@ -1,0 +1,49 @@
+* {
+    /* background-color:rgb(225, 241, 255); lightest blue background */
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.section {
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
+    border: 3px solid rgb(103, 131, 243);
+    border-radius: 5px;
+    padding: 0.8% 1.7%;
+    background-color: rgb(179, 213, 244); /* 3rd lightest*/
+}
+
+table, th, td {
+    border: 1.2px solid rgb(103, 131, 243);
+    border-collapse: collapse;  
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    background-color: rgb(206, 227, 246); /* 2nd lightest */
+}
+
+h1 h2  {
+    background-color: rgb(179, 213, 244); /* 3rd lightest*/
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.male {
+    color: rgb(47, 47, 234)
+}
+
+.female {
+    color: rgb(199, 20, 20)
+}
+
+.github {
+    font-size: 120%
+}

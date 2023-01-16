@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jumps</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="section">
+            <h1>JUMPS</h1>
+            <h2>An overview of jump events in track and field.</h2>
+        </div>
+
+        <div class="section gif">
+            <table>
+                <tr>
+                    <td>
+                        <figure>
+                        <!-- image source: https://gfycat.com/dazzlingscarcedowitcher -->
+                        <img src="images/long.gif" alt="Long Jump">
+                        <figcaption>Long Jump</figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <!-- image source: https://gfycat.com/gifs/search/olympic+triple+jump -->
+                            <img src="images/triple.gif" alt="Triple Jump">
+                            <figcaption>Triple Jump</figcaption>    
+                        </figure>            
+                    </td>
+                    <td>
+                        <figure>
+                            <!-- image source: https://tenor.com/view/track-high-jump-highjump-oregon-gif-5079552 -->
+                            <img src="images/high.gif" alt="High Jump">
+                            <figcaption>High Jump</figcaption>    
+                        </figure>            
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>World Records</h2>
+            <table class="wr">
+                <tr>
+                    <th>Jump</th>
+                    <th class="male">Male</th>
+                    <th class="female">Female</th>
+                </tr>
+                <tr>
+                    <td>Long Jump</td>
+                    <td class="male">8.95m<br>Mike Powell</td>
+                    <td class="female">7.52m<br>Galina Chistyakova</td>
+                </tr>
+                <tr>
+                    <td>Triple Jump</td>
+                    <td class="male">18.29m<br>Jonathan Edwards</td>
+                    <td class="female">15.74m<br>Yulimar Rojas</td>
+                </tr>
+                <tr>
+                    <td>High Jump</td>
+                    <td class="male">2.45m<br>Javier Sotomayor</td>
+                    <td class="female">2.09m<br>Stefka Kostadinova</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <form action="sbj.html"> <!-- submit button links to this page and form-data will be sent here -->
+                <label><h3>Vote for the jump you like the most (to possibly access an extra page):</h3></label>
+                <input type="radio" id="long" name="vote" value="long jump" required> <!-- only one 'required' attr needed for one group with same name -->
+                <label for="long">Long Jump</label>
+                <br>
+                <input type="radio" id="triple" name="vote" value="triple jump">
+                <label for="triple">Triple Jump</label>
+                <br>
+                <input type="radio" id="high" name="vote" value="high jump">
+                <label for="high">High Jump</label>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+
+        <!-- Notes:
+            <input value=''> not shown to user but sent to server upon submission
+            use same <input name=''> to allow one selection
+            <input id=''> must be the same as <label for=''> to link them tgt 
+        -->
+
+        <div class="section github">
+            <a href="">Github repository</a>
+        </div>
+    </body>
+</html>
