@@ -24,10 +24,6 @@ table, th, td {
     background-color: rgb(206, 227, 246); /* 2nd lightest */
 }
 
-h1 h2  {
-    background-color: rgb(179, 213, 244); /* 3rd lightest*/
-}
-
 img {
     width:100%;
     height:auto;
